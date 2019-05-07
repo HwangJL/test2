@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.test2.MainActivity"
+    >
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Group
+        android:id="@+id/group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="left" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="34dp">
+
+        <TextView
+            android:id="@+id/ttitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="选择困难专用"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="121dp">
+
+        <TextView
+            android:id="@+id/餐馆文字"
+            android:layout_width="244dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择餐馆:"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/餐馆"
+            android:layout_width="187dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:entries="@array/餐馆" />
+
+
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="185dp">
+
+        <TextView
+            android:id="@+id/肉类文字"
+            android:layout_width="218dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择肉类:"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/肉类"
+            android:layout_width="184dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:entries="@array/肉类" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="244dp">
+
+        <TextView
+            android:id="@+id/素类文字"
+            android:layout_width="213dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="选择素类:"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/素类"
+            android:layout_width="185dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:entries="@array/素类" />
+    </TableRow>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="vertical"></LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="328dp">
+
+        <Button
+            android:id="@+id/显示已有菜单"
+            android:layout_width="136dp"
+            android:layout_height="55dp"
+            android:layout_gravity="left"
+            android:text="显示已有菜单"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/生成"
+            android:layout_width="136dp"
+            android:layout_height="55dp"
+            android:layout_gravity="center_horizontal"
+            android:text="生成"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/插入"
+            android:text="插入"
+            android:layout_width="136dp"
+            android:layout_gravity="right"
+            android:layout_height="55dp"
+            android:textStyle="bold" />
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/随机"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="随机"
+            android:textStyle="bold" />/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/显示"
+        android:layout_width="422dp"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="请选择"
+        tools:ignore="DuplicateIds" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/sql生成"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="第一次使用请先点此处" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="小厨菜单">
+        <item>鸡蛋番茄/番茄炒蛋</item>
+        <item>猪肉枸杞/肉片汤饭</item>
+        <item>鸡肉青椒/爆炒鸡柳</item>
+        <item>鸡肉土豆/土豆鸡块</item>
+        <item>猪肉青椒/农家小炒肉</item>
+        <item>猪肉豆腐/红烧豆腐</item>
+        <item>牛肉番茄/番茄烧牛肉</item>
+        <item>猪肉豆腐/油豆腐炒猪杂</item>
+        <item>牛肉豆腐/油豆腐炒牛肉</item>
+        <item>牛肉腐竹/腐竹炒牛肉</item>
+        <item>猪肉支竹/支竹炒肉片</item>
+        <item>包菜辣椒/手撕包菜</item>
+        <item>猪肉茄子/红烧茄子</item>
+        <item>鸡肉辣椒/辣子鸡</item>
+        <item>牛肉土豆/土豆炒牛肉</item>
+        <item>凉瓜牛肉/凉瓜炒牛肉</item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+
+    </string-array>
+</resources>

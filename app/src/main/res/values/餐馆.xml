@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="餐馆">
+        <item>农家小厨</item>
+        <item>汇味园</item>
+        <item>食客</item>
+        <item>好滋味</item>
+        <item>潮汕汤粉王</item>
+        <item>蓉姨小炒</item>
+    </string-array>
+
+</resources>

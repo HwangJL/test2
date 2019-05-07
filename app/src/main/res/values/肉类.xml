@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="肉类">
+        <item>鸡肉</item>
+        <item>鸭肉</item>
+        <item>鹅肉</item>
+        <item>猪肉</item>
+        <item>牛肉</item>
+        <item>鱼类</item>
+        <item>鸡蛋</item>
+    </string-array>
+
+</resources>
